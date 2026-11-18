@@ -1,8 +1,8 @@
 ---
-title: "My first real blog post"
-description: "This is how it's going to be"
+title: "Welcome to my corner of the internet"
+description: "Why I'm building a personal site, and what I hope to share here."
 date: 2026-11-17
-category: Projects
+category: Reflections
 draft: false
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "Welcome to my corner of the internet"
-description: "Why I'm building a personal site, and what I hope to share here."
+title: "Blog Post 1"
+description: "This is my first post wait until this is daily"
 date: 2026-11-17
 category: Reflections
 draft: false
