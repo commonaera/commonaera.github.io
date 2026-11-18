@@ -1,0 +1,5 @@
+---
+import '../styles/global.css';
+const { title = 'Eduardo Muñoz', description = 'Ideas, projects, and notes.' } = Astro.props;
+---
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content={description}/><title>{title}</title><link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml"/></head><body><header><nav class="wrap nav"><a class="brand" href="/"><span>EM</span> EDUARDO MUÑOZ</a><div class="links"><a href="/">Home</a><a href="/blog">Blog</a><a href="/about">About</a></div></nav></header><main><slot/></main><footer><div class="wrap">© {new Date().getFullYear()} Eduardo Muñoz · <a href="/rss.xml">RSS</a></div></footer></body></html>
