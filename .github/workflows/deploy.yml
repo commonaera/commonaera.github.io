@@ -27,16 +27,18 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Install dependencies
+- name: Install dependencies
+        working-directory: ./eduardo-blog
         run: npm install
 
       - name: Build Astro website
+        working-directory: ./eduardo-blog
         run: npm run build
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./eduardo-blog/dist
 
   deploy:
     environment:
